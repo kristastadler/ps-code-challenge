@@ -16,7 +16,7 @@ This project is a backend Rails application that allows users to access informat
 - ```post_code_summaries```
   - Includes the following columns:
     - post_code
-    - total places: count of street cafes in the post code
+    - total_places: count of street cafes in the post code
     - total_count: total count of chairs available in that post code
     - chairs_pct: total chairs in post code as percentage of total chairs overall
     - max_chairs: maximum number of chairs at a single cafe in the post code
@@ -51,6 +51,7 @@ This project is a backend Rails application that allows users to access informat
 - Script to export and delete records of small cafes:
   - Run ```rake remove_small_restaurants```
   - Records of small cafes are exported to ```"./db/csv/exported_restaurants_#{time_stamp}.csv"```
+  - Records of small cafes are deleted from the restaurants table
 
 - Script to update names of medium and large cafes:
   - Run ```rake update_restaurant_names```
