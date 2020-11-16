@@ -67,3 +67,8 @@ This project is a backend Rails application that allows users to access informat
     FROM restaurants
     GROUP BY post_code;
   ```
+
+  I spent several hours over a couple of days trying to tweak this query, to no avail. This is the point where, if I was on a team, I would ask for support from another dev.
+
+### A Note on ```varchar```
+  - When I was setting up my database, I noticed that the category column is requested to be varchar type. I have typically used string types, so I did some research and learned that string translates to varchar in the database so I kept string as the type for the category column for uniformity.
