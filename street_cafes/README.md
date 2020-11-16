@@ -57,6 +57,7 @@ This project is a backend Rails application that allows users to access informat
   - Names of medium and large cafes are updated to match the following format: ```category_name cafe_name```
 
 ### Testing
+  - Testing was done using RSpec
   - Testing for all scripts can be found at ```"./spec/models/restaurant_spec.rb"```
 
 ### Next Steps
