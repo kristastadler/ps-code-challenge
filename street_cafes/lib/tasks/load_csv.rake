@@ -8,7 +8,7 @@ namespace :db do
       puts 'Cleared Existing Models'
 
       SeedStarter.create_restaurants
-      puts 'Created Customers'
+      puts 'Created Restaurants'
 
       ActiveRecord::Base.connection.tables.each do |t|
         ActiveRecord::Base.connection.reset_pk_sequence!(t)

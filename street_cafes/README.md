@@ -49,7 +49,7 @@ This project is a backend Rails application that allows users to access informat
     - other
 
 - Script to export and delete records of small cafes:
-  - Run ```rake remove_small_restaurants```
+  - Run ```rake export:remove_small_restaurants```
   - Records of small cafes are exported to ```"./db/csv/exported_restaurants_#{time_stamp}.csv"```
   - Records of small cafes are deleted from the restaurants table
 
